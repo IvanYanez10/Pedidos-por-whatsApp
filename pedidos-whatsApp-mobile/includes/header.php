@@ -4,7 +4,7 @@
 
   if (!isset($_COOKIE['categoria'])) {
     setcookie("categoria", 1);
-    header("Location: https://localhost/aplicacion-wb-mobile/");
+    header("Location: http://localhost/Pedidos-por-whatsApp/aplicacion-wb-mobile/");
   }
 
   include "includes/db.php";
@@ -21,10 +21,10 @@
 
     <title>Tienda</title>
 
-    <script src="https://localhost/aplicacion-wb-mobile/admin/js/functions.js"></script>
+    <script src="https://localhost/Pedidos-por-whatsApp/pedidos-whatsApp-mobile/admin/js/functions.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://localhost/aplicacion-wb-mobile/includes/css/style.css" rel="stylesheet">
+    <link href="https://localhost/Pedidos-por-whatsApp/pedidos-whatsApp-mobile/includes/css/style.css" rel="stylesheet">
   </head>
 
   <body>

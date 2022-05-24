@@ -1,7 +1,7 @@
 <?php
 
 if (!isset($_COOKIE['cartJS'])){
-  header("Location: https://shop.subetuweb.site/");
+  header("Location: http://localhost/Pedidos-por-whatsApp/aplicacion-wb-mobile/");
   exit;
 }
 

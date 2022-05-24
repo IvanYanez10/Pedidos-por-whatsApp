@@ -46,7 +46,7 @@
       echo "<i class='fas fa-shopping-cart'></i>";
       echo "<span class='position-absolute top-40 start-80 badge rounded-pill'>".$GLOBALS["cartCount"]."</span>";
       echo "</button>";
-      echo "<a href='https://shop.subetuweb.site/form.php'
+      echo "<a href='https://localhost/Pedidos-por-whatsApp/pedidos-whatsApp-mobile/form.php'
       type='button'
       class='btn  my-float ms-1'>
       <i class='fas fa-arrow-circle-right'></i></a>";
@@ -81,7 +81,7 @@
     	  echo "Vacio";
     	}
       echo "<div class='col-12'>";
-        echo "<a href='https://shop.subetuweb.site/form.php'
+        echo "<a href='https://localhost/Pedidos-por-whatsApp/pedidos-whatsApp-mobile/form.php'
         type='button'
         class='btn my-float-1 m-1'>
         <i class='fas fa-arrow-circle-right'></i></a>";
